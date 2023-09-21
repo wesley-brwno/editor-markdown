@@ -82,7 +82,91 @@ O fórum da Alura é uma API REST de discussão online onde usuáros podem compa
     <tr>
         <td>DELETE</td>
         <td>/respostas/{id}</td>
-        <td>deleta uma resposta por id</td></td>
+        <td>deleta uma resposta por id</td>
+        <td>ADMIN | USER</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/topicos</td>
+        <td>lista todos os tópicos</td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>/topicos</td>
+        <td>cadastra um tópico</td>
+        <td>ADMIN | USER</td>
+    </tr>
+    <tr>
+        <td>PUT</td>
+        <td>/topicos/{ativo}/{id}</td>
+        <td>muda o status de um tópico para FECHADO pelo id</td>
+        <td>ADMIN | USER</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/topicos/{id}</td>
+        <td>busca um tópico pelo id</td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>PUT</td>
+        <td>/topicos/{id}</td>
+        <td>atualiza um tópico pelo id</td>
+        <td>USER</td>
+    </tr>
+    <tr>
+        <td>DELETE</td>
+        <td>/topicos/{id}</td>
+        <td>deleta um tópico pelo id</td>
+        <td>ADMIN | USER</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/topicos/{topico_id}/respostas</td>
+        <td>lista tópico por id com suas respostas</td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/topicos/ano/{ano}</td>
+        <td>lista tópicos por ano</td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/topicos/cursos/{nome}</td>
+        <td>lista tópicos pelo nome do curso</td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/topicos/status</td>
+        <td>lista tópicos por status</td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/usuarios/{id}</td>
+        <td>lista usuário pelo id</td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>PUT</td>
+        <td>/usuarios/{id}</td>
+        <td>atualiza usuário pelo id</td>
+        <td>ADMIN | USER</td>
+    </tr>
+    <tr>
+        <td>DELETE</td>
+        <td>/usuarios/{id}</td>
+        <td>deleta usuário pelo id</td>
+        <td>ADMIN | USER</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/usuarios</td>
+        <td>lista todos os usuários</td>
         <td>ADMIN | USER</td>
     </tr>
 </table>
