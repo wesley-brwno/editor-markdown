@@ -7,6 +7,23 @@
 
 ## Sobre o projeto
 O fórum da Alura é uma API REST de discussão online onde usuáros podem compartilhar dúvidas, respostas e experiências.
+## Tecnologias
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring MVC](https://docs.spring.io/spring-framework/reference/web/webmvc.html)
+- [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
+- [Spring Security](https://spring.io/projects/spring-security)
+- [JWT](https://jwt.io/)
+- [SpringDoc OpenAPI 3](https://springdoc.org/)
+- [Mysql](https://dev.mysql.com/downloads/)
+
+## Práticas Adotadas
+- API REST
+- Consultas com Spring Data JPA
+- Tratamento de respostas de erro
+- Proteção de endpoints e recursos
+- Autenticação e autorização
+- Gestão de usuários e permições
+- Geração automática do Swagger com a OpenAPI 3
 
 ## Diagrama Entidade Relacionamento
 ![forum_alura_DER](https://github.com/wesley-brwno/challenge-one-forum-alura/assets/84514966/e3c0e9ee-1439-4c12-a537-5cb99c92bdf2)
