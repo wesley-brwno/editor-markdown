@@ -124,7 +124,7 @@ O fórum da Alura é uma API REST de discussão online onde usuáros podem compa
     <tr>
         <td>GET</td>
         <td>/topicos/{topico_id}/respostas</td>
-        <td>lista tópico por id com suas respostas</td>
+        <td>lista tópico pelo id com suas respostas</td>
         <td>N/A</td>
     </tr>
     <tr>
