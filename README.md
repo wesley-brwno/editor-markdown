@@ -18,12 +18,27 @@ O fórum da Alura é uma API REST de discussão online onde usuáros podem compa
 
 ## Práticas Adotadas
 - API REST
+- Validação de dados com anotações do Spring validations e Hibernate
 - Consultas com Spring Data JPA
 - Tratamento de respostas de erro
 - Proteção de endpoints e recursos
 - Autenticação e autorização
 - Gestão de usuários e permições
 - Geração automática do Swagger com a OpenAPI 3
+## Como Executar
+
+- Clonar repositório git
+- Construir o projeto:
+```
+$ ./mvnw clean package
+```
+- Executar a aplicação:
+```
+$ java -jar target/todolist-0.0.1-SNAPSHOT.jar
+```
+
+A API poderá ser acessada em [localhost:8080](http://localhost:8080).
+O Swagger poderá ser visualizado em [localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 ## Diagrama Entidade Relacionamento
 ![forum_alura_DER](https://github.com/wesley-brwno/challenge-one-forum-alura/assets/84514966/e3c0e9ee-1439-4c12-a537-5cb99c92bdf2)
