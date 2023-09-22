@@ -33,9 +33,9 @@ O fórum da Alura é uma API REST de discussão online onde usuáros podem compa
 ```
  java -jar forum-0.0.1-SNAPSHOT.jar 
 ```
-Se o banco de dados não estiver disponível, você pode fornecer um banco de dados para o projeto, as tabelas e dados serão gerados automaticamente. Para isso, configure as seguintes variáveis de ambiente:
+Se o banco de dados não estiver disponível, você pode fornecer um para o projeto, as tabelas e dados serão gerados automaticamente. Para isso, configure as seguintes variáveis de ambiente:
 
-- MYSQL_HOST (URL do banco de dados, incluindo o nome do banco de dados)
+- MYSQL_HOST (URL do banco de dados, incluindo o nome)
 - MYSQL_USERNAME (Nome do usuário do banco de dados)
 - MYSQL_PASSWORD (Senha do banco de dados)
 
@@ -206,7 +206,7 @@ O Swagger poderá ser visualizado em [localhost:8080/swagger-ui.html](http://loc
         <td>GET</td>
         <td>/usuarios</td>
         <td>lista todos os usuários</td>
-        <td>ADMIN | USER</td>
+        <td>ADMIN</td>
     </tr>
 </table>
 
