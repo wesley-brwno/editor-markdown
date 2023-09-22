@@ -43,10 +43,27 @@ Em seguida, execute o seguinte comando em um terminal:
 ```
 java -DMYSQL_HOST=URL_PARA_O_BANCO -DMYSQL_USERNAME=NOME_DO_USUARIO -DMYSQL_PASSWORD=SENHA -jar forum-0.0.1-SNAPSHOT.jar 
 ```
-A API poderá ser acessada em [localhost:8080](http://localhost:8080).
 
-O Swagger poderá ser visualizado em [localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+## Instruções para acessar a API
+- A API pode ser acessada em [localhost:8080](http://localhost:8080).
+- O Swagger pode ser visualizado em [localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html).
 
+## Instruções para fazer login
+
+- Para fazer login como administrador, use as seguintes credenciais:
+```
+{
+  "email": "admin@email.com",
+  "senha": "admin1234"
+}
+```
+- Para fazer login como um usuário, use as seguintes credenciais:
+```
+{
+  "email": "user@email.com",
+  "senha": "user1234"
+}
+``` 
 ## Diagrama Entidade Relacionamento
 ![forum_alura_DER](https://github.com/wesley-brwno/challenge-one-forum-alura/assets/84514966/e3c0e9ee-1439-4c12-a537-5cb99c92bdf2)
 
